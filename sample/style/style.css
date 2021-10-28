@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Arial";
+}
+.main{
+	text-align: center;
+	font-size: 4em;
+	color:blue;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.row{
+	width:100%;
+	padding: 30px;
+}
+.col1 > h1 , .col2 > h1 ,.col3 > h1{
+	float:right;
+	background:yellow;
+	color:green;
+}
+.col1 > p , .col2 > p ,.col3 > p{
+	float:left;
+	text-align: justify;
+	padding:5px;
+}
+@media (min-width: 1200px){
+	.col1 , .col2 , .col3{
+		float:left;
+		border:5px solid blue;
+		padding:5px;
+		width:33.33%;
+	}
+}
+@media (min-width: 952px) and (max-width: 1199px){
+	.col1 , .col2 , .col3{
+		float:left;
+		border:5px solid blue;
+	}
+	.col1 , .col2 {
+		width:50%;
+	}
+	.col3{
+		width:100%;
+		margin-top: 10px;
+	}
+}
+@media (max-width: 951px){
+	.col1 , .col2 , .col3{
+		float:left;
+		border:5px solid blue;
+		padding:5px;
+		width:100%;
+		margin-top: 10px;
+	}
+}
