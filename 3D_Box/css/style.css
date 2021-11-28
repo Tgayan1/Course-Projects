@@ -3,7 +3,7 @@
     --gradient-color:#ec008a;
     --top-before-color:rgb(255, 0, 212);
     --color-iner:255, 0, 212;
-    --size-of-cube:200px;
+    --size-of-cube:300px;
     --shadow-width:calc((var(--size-of-cube) * -1) - 80px);
 }
 
